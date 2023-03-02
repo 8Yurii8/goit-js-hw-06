@@ -8,10 +8,10 @@ const ingredients = [
 ];
 const list = document.querySelector("#ingredients");
 const element = ingredients.map (option => {
-  const wel = document.createElement('li')
-  wel.classList.add('item')
-  wel.textContent = option
-  return wel
+  const item  = document.createElement('li')
+  item .classList.add('item')
+  item .textContent = option
+  return item 
 })
 
 console.dir(element)
